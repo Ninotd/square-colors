@@ -1,1 +1,148 @@
-// Specific CSS for your home-page
+.body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.button-ul {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 150px;
+  height: 150px;
+  border-bottom-right-radius: 6px;
+  background-color: #f35122;
+}
+
+.button-ur {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-bottom-left-radius: 6px;
+    background-color: #7fba01;
+}
+
+.button-bl {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  width: 150px;
+  height: 150px;
+    border-top-right-radius: 6px;
+    background-color: #00a5ef;
+}
+
+.button-br {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 150px;
+  height: 150px;
+   border-top-left-radius: 6px;
+    background-color: #ffb900;
+}
+
+.square-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 60px;
+  padding-left: 60px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.center-square {
+  border-radius: 6px;
+  background-color: #7114d4;
+  height: 80px;
+  width : 80px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .button-ul {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-ur {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-bl {
+    width: 80px;
+    height: 80px;
+  }
+
+  .button-br {
+    width: 80px;
+    height: 80px;
+  }
+
+  .square-wrapper {
+
+  }
+
+  .center-square {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .center-square {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+}// Specific CSS for your home-page
